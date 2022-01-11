@@ -1,4 +1,7 @@
 package com.yourcast.app.data.persistence.dao
 
-class CurrentDao {
+import androidx.room.Dao
+
+@Dao
+interface CurrentDao {
 }

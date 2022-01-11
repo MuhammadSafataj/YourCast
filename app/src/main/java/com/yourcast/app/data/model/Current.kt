@@ -5,7 +5,7 @@ import androidx.room.Entity
 @Entity
 data class Current(
     val coord: Coord,
-    val weather: ArrayList<Weather>,
+    val weather: List<Weather>,
     val base: String,
     val main: Main,
     val visibility: Int,
