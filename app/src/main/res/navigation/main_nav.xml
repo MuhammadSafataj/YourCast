@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/item_forecast">
+
+    <fragment
+        android:id="@+id/item_forecast"
+        android:name="com.yourcast.app.ui.view.fragment.ForecastFragment"
+        android:label="ForecastFragment"
+        tools:layout="@layout/fragment_forecast" />
+
+    <fragment
+        android:id="@+id/item_cities"
+        android:name="com.yourcast.app.ui.view.fragment.CitiesFragment"
+        android:label="CitiesFragment"
+        tools:layout="@layout/fragment_cities" />
+
+    <fragment
+        android:id="@+id/item_messages"
+        android:name="com.yourcast.app.ui.view.fragment.MessagesFragment"
+        android:label="MessagesFragment"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/item_profile"
+        android:name="com.yourcast.app.ui.view.fragment.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

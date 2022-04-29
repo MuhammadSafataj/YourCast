@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">YourCast</string>
     <string name="search">search</string>
+    <string name="cities">Cities</string>
+    <string name="add">add</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forecast">Forecast</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages</string>
+    <string name="logo">logo</string>
+    <string name="units">Units</string>
+    <string name="standard">Standard</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="settings">settings</string>
+    <string name="degree">°</string>
+    <string name="details">Details</string>
+    <string name="humidity">Humidity</string>
+    <string name="icon">icon</string>
+    <string name="today">Today</string>
+    <string name="uvi">UV Index</string>
+    <string name="wind">Wind</string>
+    <string name="visibility">Visibility</string>
+    <string name="daily">Daily</string>
+    <string name="avatar">avatar</string>
+    <string name="header">header</string>
+    <string name="delete">Delete</string>
+    <string name="refresh">Refresh</string>
 </resources>

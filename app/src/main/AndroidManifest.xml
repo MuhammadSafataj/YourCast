@@ -13,7 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YourCast">
         <activity
-            android:name=".ui.view.MainActivity"
+            android:name=".ui.view.activity.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.view.activity.SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.view.fragment.CitiesFragment"
+            android:exported="true" />
+        <activity
+            android:name=".ui.view.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

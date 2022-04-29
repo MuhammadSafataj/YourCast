@@ -1,6 +1,6 @@
 package com.yourcast.app.di.module
 
-import com.yourcast.app.data.network.ApiService
+import com.yourcast.app.data.remote.ApiService
 import com.yourcast.app.util.Constants
 import dagger.Module
 import dagger.Provides

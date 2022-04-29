@@ -3,7 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/drawable/background_gradient.xml" value="0.2203125" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/drawable/circle.xml" value="0.2203125" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/drawable/gradient.xml" value="0.2203125" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/font/kanit.xml" value="0.23076923076923078" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/activity_cities.xml" value="0.2462962962962963" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/activity_search.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/forecast_bottom_sheet.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_blank.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_city.xml" value="0.25" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_forcast.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_forecast.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_messages.xml" value="0.25" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/item_city.xml" value="0.16" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/item_daily.xml" value="0.28182941903584674" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/item_hourly.xml" value="0.33" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/item_search.xml" value="0.30902348578491967" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/layout/shimmer_search.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/menu/menu_city.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/menu/menu_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/menu/navigation_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/YourCast/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
       </map>
     </option>
   </component>
