@@ -21,14 +21,27 @@ class CityViewModel @Inject constructor(
 
     fun oneCall(lat: Double, lon: Double) {
         viewModelScope.launch {
-            repository.oneCall(lat, lon, Constants.OPEN_WEATHER_MAP_API_KEY)
-                .collect { response ->
-                    result.postValue(response)
-                }
+            repository.oneCall(lat, lon, Constants.OPEN_WEATHER_MAP_API_KEY).collect { response ->
+                result.postValue(response)
+            }
         }
     }
 
-    fun saveCity(city: City) {
-        repository.saveCity(city)
+    fun save(city: City) {
+        viewModelScope.launch {
+            repository.save(city)
+        }
+    }
+
+    fun delete(city: City) {
+        viewModelScope.launch {
+            repository.delete(city)
+        }
+    }
+
+    fun update(city: City) {
+        viewModelScope.launch {
+            repository.update(city)
+        }
     }
 }

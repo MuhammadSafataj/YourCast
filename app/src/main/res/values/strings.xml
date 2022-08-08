@@ -27,4 +27,9 @@
     <string name="header">header</string>
     <string name="delete">Delete</string>
     <string name="refresh">Refresh</string>
+    <string name="no_cities_found">No Cities Found</string>
+    <string name="no_cities_found_message">Click the Button below, To add your favorite city forecast</string>
+    <string name="add_city">Add City</string>
+    <string name="background">background</string>
+    <string name="search_message">Try To search a City name, to see the list of available Cities.</string>
 </resources>

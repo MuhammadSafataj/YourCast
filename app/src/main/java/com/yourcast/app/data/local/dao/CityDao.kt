@@ -1,8 +1,6 @@
 package com.yourcast.app.data.local.dao
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 import com.yourcast.app.data.model.City
 import kotlinx.coroutines.flow.Flow
 
@@ -13,5 +11,11 @@ interface CityDao {
     fun getCities(): Flow<List<City>>
 
     @Insert
-    fun insert(city: City)
+    suspend fun insert(city: City)
+
+    @Delete
+    suspend fun delete(city: City)
+
+    @Update
+    suspend fun update(city: City)
 }

@@ -13,7 +13,7 @@ data class City(
     val lon: Double,
     val timezone: String,
     val timezone_offset: Long,
-    val current: Current,
+    var current: Current,
     var minutely: List<Minutely>? = null,
     var hourly: List<Hourly>? = null,
     var daily: List<Daily>? = null

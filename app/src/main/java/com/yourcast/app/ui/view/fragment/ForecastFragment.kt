@@ -41,9 +41,19 @@ class ForecastFragment : Fragment() {
         val adapter = PagerAdapter(this)
         binding.pager.adapter = adapter
 
-        viewModel.cities.observe(viewLifecycleOwner) {
-            cities = it
-            adapter.notifyDataSetChanged()
+        viewModel.cities.observe(viewLifecycleOwner) { cities ->
+
+            if (cities.isEmpty()) {
+                binding.layoutMessage.visibility = View.VISIBLE
+                binding.pager.visibility = View.GONE
+            } else {
+                this.cities = cities
+                adapter.notifyDataSetChanged()
+
+
+                binding.layoutMessage.visibility = View.GONE
+                binding.pager.visibility = View.VISIBLE
+            }
         }
     }
 

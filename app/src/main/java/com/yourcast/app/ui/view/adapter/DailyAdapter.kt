@@ -34,13 +34,13 @@ class DailyAdapter(private val context: Context) : RecyclerView.Adapter<DailyAda
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val date = Date(data[position].dt * 1000)
-        val format = SimpleDateFormat("EEEE", Locale.getDefault())
+        val format = SimpleDateFormat("EEEE", Locale.US)
 
         val min = data[position].temp.min.roundToInt()
         val max = data[position].temp.max.roundToInt()
 
         val icon = data[position].weather[0].icon
-        val iconUrl = "http://openweathermap.org/img/w/$icon.png"
+        val iconUrl = "http://openweathermap.org/img/wn/$icon.png"
         Glide.with(context).load(iconUrl).into(holder.iconWeather)
 
         holder.textDay.text = format.format(date)

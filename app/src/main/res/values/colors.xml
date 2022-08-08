@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="transparent">#00000000</color>
+    <color name="background">#FCFCFF</color>
 
     <color name="blue_grey_50">#ECEFF1</color>
     <color name="blue_grey_100">#CFD8DC</color>
@@ -92,12 +93,12 @@
     <color name="orange_800">#ef6c00</color>
     <color name="orange_900">#e65100</color>
 
-    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_50">#EBEDF8</color>
     <color name="indigo_100">#C5CAE9</color>
     <color name="indigo_200">#9FA8DA</color>
     <color name="indigo_300">#7986CB</color>
     <color name="indigo_400">#5C6BC0</color>
-    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_500">#1A3F51B5</color>
     <color name="indigo_600">#3949AB</color>
     <color name="indigo_700">#303F9F</color>
     <color name="indigo_800">#283593</color>

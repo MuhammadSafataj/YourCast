@@ -15,5 +15,20 @@
         android:id="@+id/item_cities"
         android:name="com.yourcast.app.ui.view.fragment.CitiesFragment"
         android:label="CitiesFragment"
-        tools:layout="@layout/fragment_cities" />
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_item_cities_to_fragment_search"
+            app:destination="@id/fragment_search" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_search"
+        android:name="com.yourcast.app.ui.view.fragment.SearchFragment"
+        android:label="searchFragment"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/item_settings"
+        android:name="com.yourcast.app.ui.view.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
